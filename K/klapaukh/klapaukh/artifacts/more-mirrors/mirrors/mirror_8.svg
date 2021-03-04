@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+width="800px" height="800px"
+viewBox="0 0 1920 1080"
+zoomAndPan="disable" >
+<line x1="324" x2="359" y1="429" y2="512" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="324" x2="290" y1="429" y2="346" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="395" y1="512" y2="429" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="444" y1="512" y2="478" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="444" y1="512" y2="548" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="395" y1="512" y2="598" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="324" y1="512" y2="598" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="275" y1="512" y2="548" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="359" x2="275" y1="512" y2="478" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="395" x2="429" y1="429" y2="346" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="444" x2="527" y1="478" y2="444" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="444" x2="527" y1="548" y2="583" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="395" x2="429" y1="598" y2="681" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="324" x2="290" y1="598" y2="681" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="275" x2="192" y1="548" y2="583" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="275" x2="192" y1="478" y2="444" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<rect x="314" y="424" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="349" y="507" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="280" y="341" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="385" y="424" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="419" y="341" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="434" y="473" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="517" y="439" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="434" y="543" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="517" y="578" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="385" y="593" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="419" y="676" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="314" y="593" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="280" y="676" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="265" y="543" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="182" y="578" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="265" y="473" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="182" y="439" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="0" y="0" width="800" height="800" stroke-width="10" stroke="rgb(0,255,0)" fill-opacity="0"/>
+<line x1="1920" y1="3798" x2="148" y2="0" style="stroke: rgb(255,255,0); stroke-width: 10; stroke-dasharray: 9, 5;"/>
+</svg>

@@ -1,0 +1,18 @@
+set tabstop=2
+syn on
+set number
+set ruler
+map H :set invhlsearch<return>
+set invhlsearch
+vnoremap // y/<C-R>"<CR>
+map ] :s/^/\t/<CR>
+map [ :s/^\t//<CR>
+map - :s/./-/g<CR>
+map = :s/./=/g<CR>
+map \| :%s/\t/  /g<CR>
+set autoindent
+map _ :%s/\(def .*[^:]\)$/\1:/<CR>
+map ; :s/^[ \t]*//<CR>
+map t i✓<ESC> 
+map <Enter> :!pdflatex %<CR>
+map <Space> :!alltex %<CR>

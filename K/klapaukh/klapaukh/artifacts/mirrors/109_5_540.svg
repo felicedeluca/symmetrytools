@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+width="540px" height="540px"
+viewBox="-10 -5 1930 1085"
+zoomAndPan="disable" >
+<line x1="264" x2="67" y1="271" y2="413" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="138" y1="271" y2="503" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="243" y1="271" y2="0" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="276" y1="271" y2="540" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="494" y1="271" y2="131" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="372" y1="271" y2="24" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="241" y1="271" y2="432" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="382" y1="271" y2="135" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="0" y1="271" y2="318" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="19" y1="271" y2="165" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="202" y1="271" y2="100" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="516" y1="271" y2="339" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="452" y1="271" y2="416" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="89" y1="271" y2="259" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="492" y1="271" y2="243" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<line x1="264" x2="95" y1="271" y2="68" stroke="rgb(0,0,0)" fill="rgb(0,0,0)" opacity="1.00"/>
+<line x1="264" x2="382" y1="271" y2="487" stroke="rgb(255,0,0)" fill="rgb(255,0,0)" opacity="1.00"/>
+<rect x="254" y="266" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="57" y="408" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="128" y="498" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="233" y="-5" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="266" y="535" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="484" y="126" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="362" y="19" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="231" y="427" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="372" y="130" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="-10" y="313" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="9" y="160" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="192" y="95" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="506" y="334" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="442" y="411" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="79" y="254" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="482" y="238" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="85" y="63" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="372" y="482" width="20" height="10" fill="rgb(0,0,255)" stroke="rgb(0,0,0)" opacity="1.00"/>
+<rect x="0" y="0" width="540" height="540" stroke-width="10" stroke="rgb(0,255,0)" fill-opacity="0"/>
+<line x1="1920" y1="1405" x2="-87" y2="0" style="stroke: rgb(255,255,0); stroke-width: 10; stroke-dasharray: 9, 5;"/>
+</svg>

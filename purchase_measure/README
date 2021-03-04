@@ -1,0 +1,88 @@
+=====================
+Purchase Measure code
+=====================
+
+julia
+-----
+This code is written in julia, so you'll need to install the language first.
+julialang.org can help you there.
+
+As a caveat, I have only tested this code using julia 0.4 and 0.5. Hopefully it will still 
+be fine with the latest version.
+
+
+Manually finding Purchase scores
+--------------------------------
+1. Enter the directory containing purchase.jl. 
+   Take note of the relative paths to the directories containing the graphs and layouts. 
+
+
+2. Run `julia` from the command line, then include the main file
+
+   julia> include("purchase.jl")
+
+   purchase.jl will in turn include the rest of the code, so this will take a moment.
+
+   It is entirely likely that during this process you'll be asked to install some dependency.
+   From the julia CLI, this is very easy:
+
+   julia> Pkg.add("GraphPlot")  # etc
+   julia> Pkg.add("GraphPlot", v"0.1.0")
+   julia> Pkg.pin("LightGraphs", v"0.7.1")
+   
+
+
+
+3. The Purchase score algorithm takes a graph, a layout, and an optional TOLERANCE value as parameters.
+   Begin by loading a graph and a layout.  Assuming you keep graphs in ./graphs/ and layouts in ./layouts/,
+
+  julia> g = load_light_graph("graphs/ug_308.csv")
+  julia> l = load_layout("layouts/ug_308/ug_308_layout1.csv")
+
+
+4. For development reasons, the output of the function purchase is a (somewhat large) struct. 
+   You can store the result in a variable then extract the score later
+
+   julia> purchase_result = purchase(g,l)
+   julia> print(purchase_result.score)
+
+   Or just deal with the score directly
+
+   julia> purchase(g,l).score
+    0.8882476957127227
+ 
+
+5. Of course, there's no sense interacting with the Purchase measure unless you're addressing the 
+   TOLERANCE parameter issue somehow.  The julia language allows optional parameters; in this case,
+   you can type
+
+   julia> purchase(g,l,TOLERANCE=3)
+
+   or whatever you think a reasonable parameter value would be.
+ 
+
+Finding Purchase scores in batch
+--------------------------------
+I had spent some time working on a convenience script, in the run/ directory, but last I checked, that wasn't
+operational.  There are functions in purchase.jl that I used to run the algorithm on batches of files, but
+it was all very idiosyncratic, and I only used it from the julia command line.
+
+That's a long way of saying, you'll have to write your own julia program.  Your file will 
+need to start with include("purchase.jl").  After that, you can access the command line arguments
+with the special variable ARGS, which is an Array of Strings.  
+
+I would recommend in the strongest possible terms that you do not write a bash script to feed 
+names of files one by one into julia.  Because the language is JIT-compiled and enforces strong, 
+inferred types, you burn a lot of time compiling the first time you run function, but after 
+that it is roughly as fast as compiled C code.  So, if you call julia once for each of 100 files, 
+it will probably take 15 times as long as if you ran it once, giving it the name of a directory 
+with the 100 files, and used readdir().
+
+
+Graphs and Layouts
+------------------
+The graphs came from some AT&T undirected graph dataset. I threw away all but ~25 because when I used
+the spring layout algorithm, a lot of them seemed to look too much like the other ones.
+
+The spring layout code I used is in GraphLayout.jl.  Indeed, that file also seems to contain a
+utility function to render arbitrarily many layouts for a graph and save them to disk.

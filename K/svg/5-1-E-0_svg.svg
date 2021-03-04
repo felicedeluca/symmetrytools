@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-2010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+width="1"
+height="1"
+viewBox = "0 0 1 1"
+zoomAndPan="disable">
+<!--
+elapsed: 1
+filename: test.xml
+width: 1
+height: 1
+iterations: 1
+forcemode: 1
+ke: 0
+kh: 0
+kl: 0
+kw: 0
+mass: 0
+time: 0
+coefficientOfRestitution: 0
+mus: 0
+muk: 0
+kg: 0
+wellMass: 0
+edgeCharge: 0
+finalKineticEnergy: 0
+nodeWidth: 0
+nodeHeight: 0
+nodeCharge: 0
+-
+Start Graph:
+17
+-160.94 206.32 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+-148.405 149.81 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 1 0
+-142.26 157.42 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+-154.67 237.325 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0
+-110.56 31.745 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0
+0.5 21.37 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+-209.78 46.635 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0
+-180.47 50.82 0 1 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0
+-133.675 242.165 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0
+161.94 206.32 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+149.405 149.81 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0
+143.26 157.42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0
+155.67 237.325 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0
+111.56 31.745 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
+210.78 46.635 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0
+181.47 50.82 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+134.675 242.165 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+</svg>
